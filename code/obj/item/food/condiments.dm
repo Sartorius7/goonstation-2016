@@ -27,7 +27,7 @@
 
 /obj/item/reagent_containers/food/snacks/condiment/ketchup
 	name = "ketchup"
-	desc = "Pureéd tomatoes as a sauce."
+	desc = "PureÃ©d tomatoes as a sauce."
 	icon_state = "ketchup"
 	initial_volume = 30
 
@@ -217,3 +217,8 @@
 		stuff = "mustard"
 		myVerb = "squirt"
 
+	sugar
+		name = "sugar shaker"
+		desc = "A little bottle for shaking things onto other things. It has some sugar in it."
+		icon_state = "shaker-salt"
+		stuff = "sugar"
