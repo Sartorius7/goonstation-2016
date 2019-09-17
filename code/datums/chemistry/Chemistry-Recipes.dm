@@ -459,7 +459,158 @@ datum
 			mix_phrase = "The tea somehow smells even nicer than before."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 			drinkrecipe = 1
+		
+		sodawater
+			name = "soda water"
+			id = "sodawater"
+			result = "sodawater"
+			required_reagents = list("carbon" = 1, "oxygen" = 1, "water" = 1)
+			result_amount = 2
+			mix_phrase = "The water becomes soda water, club soda, sparkling water, mineral water, or possibly seltzer."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
 
+		simplesyrup
+			name = "simple syrup"
+			id = "simplesyrup"
+			result = "simplesyrup"
+			required_reagents = list("sugar" = 1, "water" = 1)
+			required_temperature = T0C + 80
+			result_amount = 2
+			mix_phrase = "The sugar and water congeal in the heat into a gloopy syrup."
+			mix_sound = 'sound/effects/blobattack.ogg'
+			drinkrecipe = 1
+			
+		cocktail_kalimoxto
+			name = "Kalimoxto"
+			id = "kalimoxto"
+			result = "kalimoxto"
+			required_reagents = list("cola" = 1, "wine" = 1)
+			result_amount = 2
+			mix_phrase = "The drink mixes together in an oddly Basque way."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		cocktail_derby
+			name = "Derby"
+			id = "derby"
+			result = "derby"
+			required_reagents = list("gin" = 1, "bitters" = 1, "mint" = 1)
+			result_amount = 3
+			mix_phrase = "The drink becomes kind of generically named."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		cocktail_horsesneck
+			name = "Horse's Neck"
+			id = "horsesneck"
+			result = "horsesneck"
+			required_reagents = list("bourbon" = 1, "bitters" = 1, "gingerale" = 1)
+			result_amount = 3
+			mix_phrase = "The drink horses around."
+			mix_sound = 'sound/voice/horse.ogg'
+			drinkrecipe = 1
+			
+		cocktail_rose
+			name = "Rose"
+			id = "rose"
+			result = "rose"
+			required_reagents = list("vermouth" = 1, "juice_cherry" = 1, "juice_strawberry" = 1)
+			result_amount = 3
+			mix_phrase = "A rose by any other name would probably have a lower alcohol content."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+			
+		cocktail_seabreeze
+			name = "Sea Breeze"
+			id = "seabreeze"
+			result = "seabreeze"
+			required_reagents = list("vodka" = 1, "juice_cran" = 1, "juice_grapefruit" = 1)
+			result_amount = 3
+			mix_phrase = "The drink reminds you of the Oshan breeze."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+			
+		cocktail_brassmonkey
+			name = "Brass Monkey"
+			id = "brassmonkey"
+			result = "brassmonkey"
+			required_reagents = list("rum" = 1, "vodka" = 1, "juice_orange" = 1)
+			result_amount = 3
+			mix_phrase = "The drink screeches!"
+			mix_sound = 'sound/voice/monkey_scream.ogg'
+			drinkrecipe = 1
+			
+		cocktail_hotbutteredrum
+			name = "Hot Buttered Rum"
+			id = "hotbutteredrum"
+			result = "hotbutteredrum"
+			required_reagents = list("rum" = 1, "cider" = 1, "butter" = 1)
+			result_amount = 3
+			mix_phrase = "The drink becomes highly indulgent."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+			
+		cocktail_fluffycritter
+			name = "Fluffy Critter"
+			id = "fluffycritter"
+			result = "fluffycritter"
+			required_reagents = list("rum" = 1, "juice_lime" = 1, "lemonade" = 1, "juice_strawberry" = 1)
+			result_amount = 4
+			mix_phrase = "The drink coos. Aww."
+			mix_sound = 'sound/misc/babynoise.ogg'
+			drinkrecipe = 1
+			
+		cocktail_michelada
+			name = "Michelada"
+			id = "michelada"
+			result = "michelada"
+			required_reagents = list("beer" = 1, "juice_tomato" = 1, "capsaicin" = 1)
+			result_amount = 3
+			mix_phrase = "A tiny mariachi pops out of the container and doots at you before disappearing into the drink."
+			mix_sound = 'sound/items/dootdoot.ogg'
+			drinkrecipe = 1
+			
+		cocktail_gunfire
+			name = "Gunfire"
+			id = "gunfire"
+			result = "gunfire"
+			required_reagents = list("tea" = 1, "rum" = 1)
+			result_amount = 2
+			mix_phrase = "The drink makes an unconvincing gunshot noise."
+			mix_sound = 'sound/vox/shoot.ogg'
+			drinkrecipe = 1
+			
+		cocktail_espressomartini
+			name = "Espresso Martini"
+			id = "espressomartini"
+			result = "espressomartini"
+			required_reagents = list("vodka" = 1, "chocolate" = 1, "sugar" = 1, "espresso" = 1)
+			result_amount = 4
+			mix_phrase = "James Bond would use his License To Kill."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+			
+		cocktail_radler
+			name = "Radler"
+			id = "radler"
+			result = "radler"
+			required_reagents = list("beer" = 1, "lemonade" = 1)
+			result_amount = 2
+			mix_phrase = "The combination of the beer and lemonade makes you want to go cycling, for some reason."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+			
+		cocktail_threemileislandicedtea
+			name = "Three Mile Island Iced Tea"
+			id = "threemileislandicedtea"
+			result = "threemileislandicedtea"
+			required_reagents = list("vodka" = 1, "gin" = 1, "tequila" = 1, "cola" = 1, "curacao" = 1)
+			result_amount = 5
+			mix_phrase = "You swear you hear the sound of a nuclear bomb pushed through an airlock."
+			mix_sound = 'sound/machines/decompress.ogg'
+			drinkrecipe = 1
+			
 		cocktail_citrus
 			name = "Triple Citrus"
 			id = "cocktail_citrus"
