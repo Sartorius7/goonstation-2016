@@ -262,7 +262,7 @@ datum
 			taste = "spooky"
 
 		fooddrink/alcoholic/beepskybeer
-			name = "Beepskybr�u Security Schwarzbier"
+			name = "Beepskybräu Security Schwarzbier"
 			id = "beepskybeer"
 			description = "A dark German beer, typically served with dark bread, cream cheese, and an intense appreciation for the law."
 			reagent_state = LIQUID
@@ -1118,7 +1118,7 @@ datum
 			reagent_state = LIQUID
 
 		fooddrink/alcoholic/pinacolada
-			name = "Pi�a Colada"
+			name = "Piña Colada"
 			id = "pinacolada"
 			fluid_r = 255
 			fluid_g = 255
@@ -1165,6 +1165,154 @@ datum
 			fluid_b = 0
 			alch_strength = 6
 			description = "A hellish cocktail that stinks of rotting garbage."
+			reagent_state = LIQUID
+		
+		fooddrink/alcoholic/kalimoxto
+			name = "Kalimoxto"
+			id = "kalimoxto"
+			fluid_r = 164
+			fluid_g = 77
+			fluid_b = 65
+			alch_strength = 3
+			description = "A refreshing Spanish mixture of cola and wine."
+			reagent_state = LIQUID
+
+		fooddrink/alcoholic/derby
+			name = "Derby"
+			id = "derby"
+			fluid_r = 253
+			fluid_g = 224
+			fluid_b = 34
+			alch_strength = 4
+			description = "One of the many cocktails with the same name."
+			reagent_state = LIQUID
+
+		fooddrink/alcoholic/horsesneck
+			name = "Horse's Neck"
+			id = "horsesneck"
+			fluid_r = 252
+			fluid_g = 205
+			fluid_b = 63
+			alch_strength = 5
+			description = "Not to be confused with a horse mask."
+			reagent_state = LIQUID
+
+		fooddrink/alcoholic/rose
+			name = "Rose"
+			id = "rose"
+			fluid_r = 254
+			fluid_g = 28
+			fluid_b = 187 //oh god my eyes
+			alch_strength = 3
+			description = "An eye-searingly pink mixed drink."
+			reagent_state = LIQUID
+
+		fooddrink/alcoholic/gunfire
+			name = "Gunfire"
+			id = "gunfire"
+			fluid_r = 247
+			fluid_g = 127
+			fluid_b = 0
+			alch_strength = 1
+			description = "A mixture of tea and rum. Huh."
+			reagent_state = LIQUID
+
+		fooddrink/alcoholic/seabreeze
+			name = "Sea Breeze"
+			id = "seabreeze"
+			fluid_r = 253
+			fluid_g = 116
+			fluid_b = 101
+			alch_strength = 2
+			description = "A refreshing mixed drink evocative of the seaside."
+			reagent_state = LIQUID
+
+		fooddrink/alcoholic/brassmonkey
+			name = "Brass Monkey"
+			id = "brassmonkey"
+			fluid_r = 253
+			fluid_g = 198
+			fluid_b = 47
+			alch_strength = 2
+			description = "Contains no monkeys or brass."
+			reagent_state = LIQUID
+
+		fooddrink/alcoholic/hotbutteredrum
+			name = "Hot Buttered Rum"
+			id = "hotbutteredrum"
+			fluid_r = 209
+			fluid_g = 147
+			fluid_b = 93
+			alch_strength = 3
+			description = "A rich and indulgent drink with actual butter in it."
+			reagent_state = LIQUID
+
+		fooddrink/alcoholic/fluffycritter
+			name = "Fluffy Critter"
+			id = "fluffycritter"
+			fluid_r = 252
+			fluid_g = 240
+			fluid_b = 188
+			alch_strength = 2
+			description = "A sweet mixed drink with a cutesy name."
+			reagent_state = LIQUID
+
+		fooddrink/alcoholic/michelada
+			name = "Michelada"
+			id = "michelada"
+			fluid_r = 211
+			fluid_g = 53
+			fluid_b = 8
+			alch_strength = 1
+			description = "¡Una cerveza preparada de México perfecta para los sedientos habitantes de la estación espacial que quieren algo con un bocado!"
+			reagent_state = LIQUID
+
+		fooddrink/alcoholic/espressomartini
+			name = "Espresso Martini"
+			id = "espressomartini"
+			fluid_r = 93
+			fluid_g = 48
+			fluid_b = 22
+			alch_strength = 1
+			description = "Does this really count as a Martini?"
+			reagent_state = LIQUID
+
+		fooddrink/alcoholic/radler
+			name = "Radler"
+			id = "radler"
+			fluid_r = 254
+			fluid_g = 215
+			fluid_b = 58
+			alch_strength = 1
+			description = "A lemonade and beer shandy."
+			reagent_state = LIQUID
+
+		fooddrink/alcoholic/threemileislandicedtea
+			name = "Three Mile Island Iced Tea"
+			id = "threemileislandicedtea"
+			fluid_r = 178
+			fluid_g = 254
+			fluid_b = 15
+			alch_strength = 6
+			description = "Does this really count as a Martini?"
+			reagent_state = LIQUID
+
+		fooddrink/sodawater
+			name = "soda water"
+			id = "sodawater"
+			fluid_r = 250
+			fluid_g = 250
+			fluid_b = 250
+			description = "Carbonated water."
+			reagent_state = LIQUID
+
+		fooddrink/simplesyrup
+			name = "Simple Syrup"
+			id = "simplesyrup"
+			fluid_r = 230
+			fluid_g = 218
+			fluid_b = 204
+			description = "A viscous and gloopy syrup."
 			reagent_state = LIQUID
 
 		fooddrink/ectocooler
